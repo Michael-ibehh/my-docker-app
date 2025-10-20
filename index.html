@@ -1,25 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Secret Mission Control</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HNG13 DevOps Stage 1</title>
   <style>
-    body { font-family: Arial; background-color: #0b0c10; color: #66fcf1; text-align: center; padding-top: 100px; }
-    h1 { font-size: 3em; }
-    p { font-size: 1.5em; }
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+    .container {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      backdrop-filter: blur(10px);
+    }
+    h1 { margin-bottom: 1rem; }
+    .timestamp { font-size: 0.9em; opacity: 0.8; }
   </style>
 </head>
 <body>
-  <h1> Docker Deploy</h1>
-  <p>Micheal's Mission status:Deployed LIVE and secure on Elastic Beanstalk</p>
+  <div class="container">
+    <h1>Welcome to DevOps Stage 1 - Michael Ifeanyi Ibeh/@michael-ibeh</h1>
+    <p>Successfully deployed on AWS</p>
+    <p class="timestamp">Deployed: 10/21/2025</p>
+  </div>
 </body>
-</html>
-<!doctype html>
-<html>
-  <head>
-    <title>My Web App</title>
-  </head>
-  <body>
-    <h1>Hello from Michael's custom Docker image!</h1>
-    <h1>Yes i just uploaded to my elasticbeanstalk</h1>
-  </body>
 </html>
